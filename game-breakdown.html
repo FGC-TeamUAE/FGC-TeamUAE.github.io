@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGC Team UAE - Game Breakdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="FGC Team UAE Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="competition.html">Competition</a></li>
+                    <li><a href="game-breakdown.html" class="active">Game Breakdown</a></li>
+                    <li><a href="nte-solution.html">NTE Solution</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="competition.html">Competition</a></li>
+                <li><a href="game-breakdown.html">Game Breakdown</a></li>
+                <li><a href="nte-solution.html">NTE Solution</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero game-hero">
+            <div class="container fade-in">
+                <h2>TerraViva: Game Breakdown & Strategy</h2>
+                <p>Understanding the field, mastering the challenge.</p>
+            </div>
+        </section>
+
+        <section class="content-section scroll-fade-in">
+            <div class="container">
+                <h3 class="section-sub-title">The Game Explained</h3>
+                <p>The 2025 FIRST Global Challenge game, Eco Equilibrium, simulates a critical mission to restore global biodiversity. Teams must collaborate to perform various tasks on the playing field, representing actions like collecting and depositing biodiversity units and clearing environmental "barriers"".</p>
+                <div class="video-container tech-border">
+                    <iframe src="https://www.youtube.com/watch?v=ssNS1lYT1Fs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="video-note">Here is the official game explanation video for Eco Equilibrium.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section light-bg scroll-fade-in">
+            <div class="container">
+                <h3 class="section-sub-title">Our Winning Strategy</h3>
+                <p>Team UAE's strategy for Eco Equilibrium focuses on high-efficiency resource management and rapid, reliable endgame execution. Our primary goal is to **swiftly pass bio balls to human players** for efficient scoring, while our robot simultaneously excels at **mitigating barrier balls** to keep the field clear and maximize alliance points.</p>
+                <p>We are also confident in achieving **the best hanging** in the competition, a high-value endgame task. Our robot's design is specifically adapted to ensure a quick, stable, and repeatable climb, securing crucial points in the final moments of each match. Our strategic approach balances offensive capabilities with robust defense and a dominant endgame.</p>
+            </div>
+        </section>
+
+        <section class="content-section scroll-fade-in">
+            <div class="container">
+                <h3 class="section-sub-title">Robot Subsystem Breakdown</h3>
+                <div class="subsystem-grid">
+                    <div class="subsystem-card tech-gradient">
+                        <h4>Intake</h4>
+                        <ul>
+                            <li>Compliant wheels at the front for gentle yet effective gripping.</li>
+                            <li>Heat-treated orange tubing provides durability and optimized friction.</li>
+                            <li>Surgical tubing drum positioned behind for efficient ball indexing.</li>
+                        </ul>
+                    </div>
+                    <div class="subsystem-card tech-gradient">
+                        <h4>Storage</h4>
+                        <ul>
+                            <li>Entire rear half side of the robot utilized for spacious storage.</li>
+                            <li>Open roof design allows for quick loading and visual confirmation.</li>
+                            <li>Capacity to store 4-6 bio balls (potentially up to 8 with optimization).</li>
+                        </ul>
+                    </div>
+                    <div class="subsystem-card tech-gradient">
+                        <h4>Launcher</h4>
+                        <ul>
+                            <li><strong>None:</strong> Our strategy prioritizes passing and climbing over launching, simplifying the robot and reducing points of failure.</li>
+                        </ul>
+                    </div>
+                    <div class="subsystem-card tech-gradient">
+                        <h4>Climbing</h4>
+                        <ul>
+                            <li>Alternating gears and plastic brackets for a robust and reliable climbing mechanism.</li>
+                            <li>Located above the surgical tubing drum, offset slightly to the back (center of the robot, above the intake).</li>
+                            <li>Designed for optimal balance and stability during ascent.</li>
+                        </ul>
+                    </div>
+                    <div class="subsystem-card tech-gradient">
+                        <h4>Barrier Ball Mitigation</h4>
+                        <ul>
+                            <li>Rear wall features two extrusion "arms" with compliant wheels on the insides.</li>
+                            <li>Servos control movement from upright (storage) to barrier ball height (active mitigation).</li>
+                            <li>Cardboard / PEI sheet between wheels, also servo-mounted, keeps bio balls in but can flip out for barrier ball intake.</li>
+                            <li>Whole mechanism folds backward without opening PEI sheet to expand bio ball storage.</li>
+                            <li>Small ledge at the bottom to securely hold barrier balls during transport.</li>
+                        </ul>
+                    </div>
+                    <div class="subsystem-card tech-gradient">
+                        <h4>Generator Spinner</h4>
+                        <ul>
+                            <li>Minor subsystem located on the side of the robot.</li>
+                            <li>Utilizes a servo with gearing for precise and efficient rotation of the generator.</li>
+                        </ul>
+                    </div>
+                    <div class="subsystem-card tech-gradient">
+                        <h4>Drivetrain</h4>
+                        <ul>
+                            <li><strong>X-Drive:</strong> Provides superior maneuverability, allowing for omnidirectional movement and precise positioning on the field.</li>
+                            <li>Enables quick adjustments and evasion, crucial for navigating crowded areas and optimizing ball transfer.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FGC Team UAE. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://instagram.com/your_instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://twitter.com/your_twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
